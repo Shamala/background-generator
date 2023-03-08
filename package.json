@@ -1,0 +1,25 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "Updates the background from the selector",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shamala/background-generator.git"
+  },
+  "keywords": [
+    "background-generator"
+  ],
+  "author": "Shamala Mallya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shamala/background-generator/issues"
+  },
+  "homepage": "https://github.com/Shamala/background-generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
